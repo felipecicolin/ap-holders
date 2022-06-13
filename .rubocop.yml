@@ -1,0 +1,54 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    - tmp/**/*
+    - vendor/**/*
+    - node_modules/**/*
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  CacheRootDirectory: tmp
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MessageSpies:
+  EnforcedStyle: receive
+
+RSpec/MultipleExpectations:
+  Exclude:
+    - spec/features/**/*.rb
+    - spec/views/**/*.rb
+
+RSpec/ExampleLength:
+  CountAsOne: ['array', 'hash', 'heredoc']
+  Exclude:
+    - spec/features/**/*.rb
+
+RSpec/DescribeClass:
+  Exclude:
+    - spec/views/**/*.rb
+    - spec/features/**/*.rb
+
+RSpec/ImplicitSubject:
+  EnforcedStyle: single_statement_only
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+    - Rakefile
+    - Guardfile
+    - lib/tasks/**/*.rb
+    - config/**/*.rb
+
+Naming/RescuedExceptionsVariableName:
+  PreferredName: error
