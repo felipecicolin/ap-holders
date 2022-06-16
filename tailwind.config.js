@@ -1,9 +1,10 @@
 module.exports = {
   content: [
+    './app/views/**/*.html.haml',
     './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',
     './app/assets/stylesheets/**/*.css',
     './app/javascript/**/*.js'
   ],
-  plugins: [require("daisyui")]
+  plugins: [require("@tailwindcss/typography"), require("daisyui")]
 }
