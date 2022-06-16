@@ -1,0 +1,19 @@
+.navbar.bg-base-100
+  .navbar-start
+    .dropdown
+      %label.btn.btn-ghost.btn-circle{:tabindex => "0"}
+        %svg.h-5.w-5{:fill => "none", :stroke => "currentColor", :viewbox => "0 0 24 24", :xmlns => "http://www.w3.org/2000/svg"}
+          %path{:d => "M4 6h16M4 12h16M4 18h7", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+      %ul.menu.menu-compact.dropdown-content.mt-3.p-2.shadow.bg-base-100.rounded-box.w-52{:tabindex => "0"}
+        %li
+          %a Homepage
+        %li
+          %a Portfolio
+        %li
+          %a About
+  .navbar-center
+    = image_tag "coroa.png", class: "inline-block w-10 h-10"
+    %a.btn.btn-ghost.normal-case.text-xl ADA Phantoms Holders
+  .navbar-end
+    %div(data-controller="nami")
+      %button.btn(data-nami-target="btnNami" data-action="nami#namiConnect") Connect to Nami
