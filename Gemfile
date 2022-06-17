@@ -14,6 +14,7 @@ gem "rails"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
+gem "blockfrost-ruby"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
