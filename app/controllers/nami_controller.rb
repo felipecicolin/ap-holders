@@ -1,0 +1,2 @@
+class NamiController < ApplicationController
+end
