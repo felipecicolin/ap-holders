@@ -5,4 +5,4 @@
       .text-center
         %h1.text-5xl.font-bold ADA Phantoms Holders
         %p.py-6 This is the ADA Phantoms' Holders space. Here you are able to login with your nami wallet and breed new phantoms using the ones you have. Remember to check if a Phantom is still breedable before buying it
-        %button.btn.btn-primary Click here to see the breedabble phantnoms
+        = link_to "See the breedable Phantoms' list", phantoms_index_path, class: "btn btn-primary", data: { turbo_frame: "main" }
