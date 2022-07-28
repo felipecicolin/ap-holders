@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@emurgo/cardano-serialization-lib-asmjs@^10.2.0":
-  version "10.2.0"
-  resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-asmjs/-/cardano-serialization-lib-asmjs-10.2.0.tgz#460b7dee0a1e6e365a598c31d30cf8226684e76a"
-  integrity sha512-AHUGIQ4RBaaQiaz8+NeN7yEtu8PgKtIKp5j1cIivRFjyA0kKTxmDkrMuTBpMZqhADWrvUf6cnKw5Tzwqzg26MQ==
+"@emurgo/cardano-serialization-lib-asmjs@^11.0.0":
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/@emurgo/cardano-serialization-lib-asmjs/-/cardano-serialization-lib-asmjs-11.0.0.tgz#6c05886abb1301a27b7fda514b4fa040d77528f8"
+  integrity sha512-LkPD45e2aFRGOdHvGv55AM/Edu4ahZZ2DCeBLNiRChA7UdyyNQm+PA1ZZAsP8duvCbLZdjW0qzfho1LitVuOjQ==
 
 "@hotwired/stimulus@^3.1.0":
   version "3.1.0"
